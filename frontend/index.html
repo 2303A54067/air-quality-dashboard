@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Air Quality Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Live Air Quality Dashboard</h1>
+  <input type="text" id="cityInput" placeholder="Enter city name">
+  <button onclick="searchCity()">Search</button>
+  <div id="results"></div>
+  <canvas id="aqChart"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/charts.js"></script>
+</body>
+</html>
